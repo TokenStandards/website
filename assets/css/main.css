@@ -1623,11 +1623,11 @@
 	}
 
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-color: #9da1aa;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, ##9da1aa 15%, #383f51 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, ##9da1aa 15%, #383f51 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, ##9da1aa 15%, #383f51 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, ##9da1aa 15%, #383f51 85%);
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1644,7 +1644,7 @@
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background-color: #9da1aa;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -2345,7 +2345,7 @@
 			}
 
 		.icon.style1 {
-			color: #efa8b0;
+			color: #afb9d1;
 		}
 
 		.icon.style2 {
@@ -2353,7 +2353,7 @@
 		}
 
 		.icon.style3 {
-			color: #a89cc8;
+			color: ##9da1aa;
 		}
 
 		.icon.style4 {

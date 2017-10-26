@@ -3036,6 +3036,7 @@
 
 			.spotlight .image img {
 				display: block;
+				border: 1px solid #dddddd;
 				border-radius: 100%;
 				width: 16em;
 			}

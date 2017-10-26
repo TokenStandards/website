@@ -1644,8 +1644,8 @@
 /* Type */
 
 	body {
-		background-color: #9da1aa;
-		color: rgba(255, 255, 255, 0.65);
+		background-color: #1c2541;
+		color: rgba(221, 221, 221, 0.65);
 	}
 
 	body, input, select, textarea {
@@ -3238,7 +3238,7 @@
 		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		background-color: #ffffff;
-		color: #636363;
+		color: #0b132b;
 		position: absolute;
 		width: 64em;
 		max-width: calc(100% - 4em);
@@ -3251,19 +3251,19 @@
 	}
 
 		#nav input, #nav select, #nav textarea {
-			color: #636363;
+			color: #0b132b;
 		}
 
 		#nav a:hover {
-			color: #636363;
+			color: #0b132b;
 		}
 
 		#nav strong, #nav b {
-			color: #636363;
+			color: #0b132b;
 		}
 
 		#nav h1, #nav h2, #nav h3, #nav h4, #nav h5, #nav h6 {
-			color: #636363;
+			color: #0b132b;
 		}
 
 		#nav blockquote {
@@ -3357,24 +3357,24 @@
 
 	#main {
 		background-color: #ffffff;
-		color: #636363;
+		color: #0b132b;
 		border-radius: 0.25em;
 	}
 
 		#main input, #main select, #main textarea {
-			color: #636363;
+			color: #0b132b;
 		}
 
 		#main a:hover {
-			color: #636363;
+			color: #0b132b;
 		}
 
 		#main strong, #main b {
-			color: #636363;
+			color: #0b132b;
 		}
 
 		#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
-			color: #636363;
+			color: #0b132b;
 		}
 
 		#main blockquote {
@@ -3401,7 +3401,7 @@
 		#main .button {
 			background-color: transparent;
 			box-shadow: inset 0 0 0 1px #dddddd;
-			color: #636363 !important;
+			color: #0b132b !important;
 		}
 
 			#main input[type="submit"]:hover,
@@ -3463,7 +3463,7 @@
 				}
 
 		#main label {
-			color: #636363;
+			color: #0b132b;
 		}
 
 		#main input[type="text"],
@@ -3490,7 +3490,7 @@
 
 		#main input[type="checkbox"] + label,
 		#main input[type="radio"] + label {
-			color: #636363;
+			color: #0b132b;
 		}
 
 			#main input[type="checkbox"] + label:before,
@@ -3501,8 +3501,8 @@
 
 		#main input[type="checkbox"]:checked + label:before,
 		#main input[type="radio"]:checked + label:before {
-			background-color: #636363;
-			border-color: #636363;
+			background-color: #0b132b;
+			border-color: #0b132b;
 			color: #ffffff;
 		}
 
@@ -3542,7 +3542,7 @@
 
 		#main .icon.alt {
 			border-color: #dddddd;
-			color: #636363;
+			color: #0b132b;
 		}
 
 			#main .icon.alt:hover {
@@ -3558,7 +3558,7 @@
 		}
 
 		#main dl dt {
-			color: #636363;
+			color: #0b132b;
 		}
 
 		#main header.major h2:after {
@@ -3578,7 +3578,7 @@
 			}
 
 		#main table th {
-			color: #636363;
+			color: #0b132b;
 		}
 
 		#main table thead {

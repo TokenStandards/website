@@ -2641,6 +2641,7 @@
 			margin: 0;
 			clear: left;
 			float: left;
+			color: rgba(221, 221, 221, 0.9);
 		}
 
 		dl.alt dd {

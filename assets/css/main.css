@@ -1645,7 +1645,7 @@
 
 	body {
 		background-color: #1c2541;
-		color: rgba(221, 221, 221, 0.65);
+		color: rgba(221, 221, 221, 0.90);
 	}
 
 	body, input, select, textarea {
@@ -1685,13 +1685,13 @@
 		-ms-transition: color 0.2s ease, border-bottom 0.2s ease;
 		transition: color 0.2s ease, border-bottom 0.2s ease;
 		text-decoration: none;
-		border-bottom: dotted 1px;
+		border-bottom: 1px dotted;
 		color: inherit;
 	}
 
-		a:hover {
-			border-bottom-color: transparent;
-		}
+	a:hover {
+		border-bottom-color: transparent;
+	}
 
 	strong, b {
 		font-weight: 400;
@@ -1831,7 +1831,7 @@
 	}
 
 	a:hover {
-		color: #ffffff;
+		color: #5bc0be;
 	}
 
 	strong, b {
@@ -2345,7 +2345,7 @@
 			}
 
 		.icon.style1 {
-			color: #afb9d1;
+			color: #3a506b;
 		}
 
 		.icon.style2 {
@@ -2353,7 +2353,7 @@
 		}
 
 		.icon.style3 {
-			color: ##9da1aa;
+			color: #5bc0be;
 		}
 
 		.icon.style4 {
@@ -2361,7 +2361,7 @@
 		}
 
 		.icon.style5 {
-			color: #8cc9f0;
+			color: #1c2541;
 		}
 
 		@media screen and (max-width: 1680px) {
@@ -2407,7 +2407,9 @@
 	}
 
 		.icon.alt:hover {
-			background-color: rgba(255, 255, 255, 0.075);
+            transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+			border-color: rgba(91, 192, 190, 0.25);
+			color: rgba(91, 192, 190, 1);
 		}
 
 		.icon.alt:active {
@@ -3031,12 +3033,12 @@
 			margin-left: 4em;
 			padding: 0.65em;
 			border-radius: 100%;
-			border: solid 1px;
+			border: 1px solid;
 		}
 
 			.spotlight .image img {
 				display: block;
-				border: 1px solid #dddddd;
+				border: 1px solid rgba(11, 19, 43, 0.35);
 				border-radius: 100%;
 				width: 16em;
 			}
@@ -3243,7 +3245,7 @@
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
-		background-color: #f7f7f7;
+		background-color: #5bc0be;
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
@@ -3312,14 +3314,17 @@
 					border: 0;
 					border-radius: 8px;
 					box-shadow: inset 0 0 0 1px transparent;
+					color: white;
 				}
 
 					#nav ul li a:hover {
-						background-color: rgba(222, 222, 222, 0.25);
+						background-color: rgba(255, 255, 255, 0.25);
+						color: white;
 					}
 
 					#nav ul li a.active {
 						background-color: #ffffff;
+						color: #5bc0be;
 						box-shadow: none;
 					}
 
@@ -3327,7 +3332,7 @@
 			position: fixed;
 			top: 0;
 			padding: 0.5em 1em;
-			background-color: rgba(247, 247, 247, 0.95);
+			background-color: #5bc0be;
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
 			z-index: 10000;
@@ -3433,7 +3438,7 @@
 			#main input[type="button"].special,
 			#main button.special,
 			#main .button.special {
-				background-color: #8cc9f0;
+				background-color: #5bc0be;
 				color: #ffffff !important;
 				box-shadow: none;
 			}
@@ -3443,7 +3448,7 @@
 				#main input[type="button"].special:hover,
 				#main button.special:hover,
 				#main .button.special:hover {
-					background-color: #9acff2;
+					background-color: rgba(91, 192, 190, 0.80);
 				}
 
 				#main input[type="submit"].special:active,
@@ -3533,15 +3538,15 @@
 		}
 
 		#main .icon.major {
-			border-color: #dddddd;
+			border-color: rgba(11, 19, 43, 0.35);
 		}
 
 			#main .icon.major:before {
-				border-color: #dddddd;
+				border-color: rgba(11, 19, 43, 0.35);
 			}
 
 		#main .icon.alt {
-			border-color: #dddddd;
+			border-color: rgba(11, 19, 43, 0.65);
 			color: #0b132b;
 		}
 
@@ -3563,10 +3568,10 @@
 
 		#main header.major h2:after {
 			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: -moz-linear-gradient(90deg, #1c2541, #3a506b, #5bc0be);
+			background-image: -webkit-linear-gradient(90deg, #1c2541, #3a506b, #5bc0be);
+			background-image: -ms-linear-gradient(90deg, #1c2541, #3a506b, #5bc0be);
+			background-image: linear-gradient(90deg, #1c2541, #3a506b, #5bc0be);
 		}
 
 		#main table tbody tr {
@@ -3594,7 +3599,7 @@
 		}
 
 		#main .spotlight .image {
-			border-color: #dddddd;
+			border-color: rgba(11, 19, 43, 0.35);
 		}
 
 		#main > .main {

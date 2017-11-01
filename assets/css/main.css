@@ -3703,6 +3703,23 @@
 
 		}
 
+        #emailform button {
+            font-size: 100%;
+        }
+
+        #emailform > button:hover {
+            transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+            box-shadow: inset 0 0 0 1px rgba(91, 192, 190, 0.25) !important;
+            color: rgba(91, 192, 190, 1) !important;
+            background-color: rgba(91, 192, 190, 0.01);
+        }
+
+		#emailform input[type="email"]:focus {
+            transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+			border-color: rgba(91, 192, 190, 0.25) !important;
+			box-shadow: none;
+		}
+
 /* Footer */
 
 	#footer {

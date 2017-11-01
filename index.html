@@ -34,7 +34,7 @@
 							<li><a href="#intro" class="active">Introduction</a></li>
 							<li><a href="#first">Mission</a></li>
 							<li><a href="#second">Getting Started</a></li>
-							<li><a href="#cta">Future Initiatives</a></li>
+							<li><a href="#cta">Upcoming</a></li>
 						</ul>
 					</nav>
 
@@ -85,35 +85,12 @@
 								</footer>
 							</section>
 
-						<!-- Second Section -->
-							<section id="second" class="main special">
-								<header class="major">
-									<h2>Get Started</h2>
-									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
-								</header>
-								<p>FILLER FILLER FILLER FILLER<br/></p>
-								<pre><code>i = 0;
-
-Command line install guide section? Adds more umph to the page for balance.
-
-                                     </code></pre>
-
-								
-								<footer class="major">
-									<ul class="actions">
-									  <li class="style1">
-									  	<a href="https://github.com/TokenStandards/vault" class="button special"><span class="icon fa-code"></span>&nbsp;View Code</a>
-									  </li>
-                  </ul>
-								</footer>
-							</section>
 
 						<!-- Get Started -->
 							<section id="cta" class="main special">
 								<header class="major">
-									<h2>Upcoming Projects</h2>
-									<p>This is only the first of many projects. Token Standards aims to build as many open source tools as possible to lower the barrier to entry for joining our growing industry.</p>
+									<h2>Upcoming</h2>
+									<p>TokenStandards is here to provide the tools and knowledgebase necessary for securely storing digital assets. Stay tuned for content and open source tools that can enable you to simply and safely stor eyour assets.</p>
 								</header>
 								<footer class="major">
 									<!-- <ul class="actions">
@@ -129,9 +106,19 @@ Command line install guide section? Adds more umph to the page for balance.
 						<section>
 							<h2>Join the Initiative</h2>
 							<p>Calling all software engineers and legal experts. If you wish to help us build secure, regulatory compliant, open source software, feel free to contact us or open a pull request.</p>
-						<!--	<ul class="actions">
-								<li><a href="generic.html" class="button">Learn More</a></li> ****Can add in form for email contact here Mason*****
-							</ul> -->
+						        <ul class="actions">
+                                                                <form id="emailform">
+								  <input type="email" name="email"  placeholder="Enter email"/>
+								  <br/>
+								  <button type="submit" class="big" id="submit-form">Submit</button>
+								</form>
+								<div id="emailsuccess" style="display:none">
+								  <h2>
+								    Thanks for signing up!
+								  </h2>
+								  <p/>
+								</div>
+							</ul>
 						</section>
 						<section>
 							<h2>Contact Us</h2>
@@ -159,6 +146,7 @@ Command line install guide section? Adds more umph to the page for balance.
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/email.js"></script>
 
 	</body>
 </html>
